@@ -18,8 +18,16 @@ module.exports = {
         ring: 'hsl(var(--ring))',
         foreground: 'hsl(var(--foreground))',
         primary: {
-          DEFAULT: 'hsl(var(--primary))',
-          foreground: 'hsl(var(--primary-foreground))',
+          50: '#fff0db',
+          100: '#ffd8af',
+          200: '#fdc280',
+          300: '#fab04f',
+          400: '#f9a01e',
+          500: '#e07806',
+          600: '#ae5202',
+          700: '#7d3200',
+          800: '#4d1800',
+          900: '#1e0400',
         },
         secondary: {
           DEFAULT: 'hsl(var(--secondary))',
