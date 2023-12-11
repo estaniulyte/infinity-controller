@@ -27,16 +27,16 @@ import { Devices, Speed, Phone } from '@/config/iconPaths'
         <CardContent>
           <div class="grid gap-2 grid-cols-3 text-center">
             <div class="text-emerald-500 flex flex-col border-r">
-              <div class="text-3xl">7</div>
-              <div>active</div>
+              <div class="text-3xl hover:cursor-pointer">7</div>
+              <div class="hover:underline hover:cursor-pointer">active</div>
             </div>
             <div class="text-orange-500 flex flex-col border-r">
-              <div class="text-3xl">3</div>
-              <div class="">offline</div>
+              <div class="text-3xl hover:cursor-pointer">3</div>
+              <div class="hover:underline hover:cursor-pointer">offline</div>
             </div>
             <div class="flex flex-col">
-              <div class="text-3xl">10</div>
-              <div class="">total</div>
+              <div class="text-3xl hover:cursor-pointer">10</div>
+              <div class="hover:underline hover:cursor-pointer">total</div>
             </div>
           </div>
           <!-- <div class="text-2xl font-bold">$45,231.89</div>
